@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Jedi Background</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: black;
+      color: white;
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+      background: red;
+    }
+
+    .overlay {
+      position: relative;
+      z-index: 2;
+      padding: 2rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <video class="video-bg" autoplay muted loop playsinline>
+    <source src="/static/video/fixed_jedi_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay">The Jedi video should be playing behind me 👨‍🚀</div>
+
+</body>
+</html>
