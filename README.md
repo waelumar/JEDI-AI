@@ -57,4 +57,17 @@ GEMINI_API_KEY=your_gemini_key IN gemini_handler file
 ELEVENLABS_API_KEY=your_elevenlabs_key  IN tts_handler file
 
 
+SUMMARY OF WORKFLOW:
+User Input
+   ↓
+[Optional] RAG from knowledge.txt
+   ↓
+Prompt sent to Gemini/OpenAI
+   ↓
+LLM generates Jedi-style response
+   ↓
+Response passed to ElevenLabs → output.mp3
+   ↓
+Frontend plays looping video + output.mp3
+
 
