@@ -1,0 +1,17 @@
+My long-term goal is to build a personal AI assistant that understands my personality, preferences, and daily habits. I want it to be able to talk like a Star Wars Jedi and give motivational advice.
+
+I usually wake up at 7 AM and work on my projects until lunchtime. After that, I study deep learning and generative AI techniques.
+
+I'm currently learning LangChain and how to build RAG-based systems that can answer my own queries from my notes. I also want to learn how to fine-tune LLMs for personal use.
+
+My favorite characters from Star Wars are Obi-Wan Kenobi, Yoda, and Ahsoka Tano. I love how wise and composed they are.
+
+On weekends, I try to work on my side projects. One of them is a community recommender system that suggests Reddit and Discord communities based on personality tests.
+
+Another goal is to integrate Gemini or Groq-based models with a local vector DB using sentence-transformers to enable fast and meaningful question answering.
+
+I usually organize my day with Notion and use Python for all my automation tasks. I also use HuggingFace for embeddings and FAISS for indexing documents.
+
+My favorite quote from Yoda: “Do or do not. There is no try.”
+
+My biggest distraction is overthinking and switching between too many project ideas. I want my AI to help me stay focused.

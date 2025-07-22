@@ -4,10 +4,10 @@ from elevenlabs.client import ElevenLabs
 from elevenlabs import VoiceSettings, save
 
 # ✅ Use your API key directly
-client = ElevenLabs(api_key="sk_19ddde31417919076e839ab00b0224c10eb341af823db49b")
+client = ElevenLabs(api_key=#insert your eleven labs api key here)
 
 def text_to_speech(text):
-    voice_id = "JBFqnCBsd6RMkjVDRZzb"  # Obi-Wan like voice or similar
+    voice_id = "JBFqnCBsd6RMkjVDRZzb"  
     audio = client.text_to_speech.convert(
         text=text,
         voice_id=voice_id,
